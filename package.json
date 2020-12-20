@@ -1,0 +1,32 @@
+{
+  "name": "nexus-args-validation",
+  "version": "1.0.0",
+  "description": "Nexus Arguments Validation with Yup",
+  "homepage": "https://github.com/dihak/nexus-args-validation",
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dihak <dihak@digitalkode.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "apollo-server": "^2.19.0",
+    "nexus": "^1.0.0",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "yup": "^0.32.8"
+  },
+  "keywords": [
+    "nexus",
+    "nexus-plugin",
+    "yup",
+    "validation",
+    "graphql"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "target": "es2016",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "strict": true,
+    "esModuleInterop": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "declaration": true,
+    "sourceMap": true,
+    "declarationMap": true,
+    "noErrorTruncation": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"],
+  "exclude": ["./**/*.spec.ts", "tests"]
+}
