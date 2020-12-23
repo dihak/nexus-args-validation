@@ -45,7 +45,7 @@ export const nexusArgsValidation = () => plugin({
       return function (root, args, ctx, info, next) {
         const schema: yup.AnyObjectSchema = validation(yup);
         try {
-          schema.validateSync(args, {abortEarly: false});
+          schema.validateSync(args);
           return next(root, args, ctx, info);
         } catch (error) {
           throw new UserInputError(error, error.errors)

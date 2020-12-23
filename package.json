@@ -1,6 +1,6 @@
 {
   "name": "nexus-args-validation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nexus Arguments Validation with Yup",
   "homepage": "https://github.com/dihak/nexus-args-validation",
   "main": "dist/index.js",
