@@ -2,6 +2,9 @@
   <h1 align="center">nexus-args-validation</h1>
 </p>
 
+[![npm version](https://img.shields.io/npm/v/nexus-args-validation.svg?style=flat-square)](https://www.npmjs.org/package/nexus-args-validation)
+[![npm downloads](https://img.shields.io/npm/dm/nexus-args-validation.svg?style=flat-square)](http://npm-stat.com/charts.html?package=nexus-args-validation)
+
 This plugin integrates [yup](https://github.com/jquense/yup/) into [Nexus](https://nexusjs.org/).
 
 # Installation
